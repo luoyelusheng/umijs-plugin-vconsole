@@ -1,7 +1,7 @@
 {
   "name": "umijs-plugin-vconsole",
   "main": "lib/index.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "authors": {
     "name": "luoyelusheng",

@@ -1,7 +1,5 @@
 # umijs-plugin-vconsole
 
-[![NPM version](https://img.shields.io/npm/vumijs-plugin-vconsole.svg?style=flat)](https://npmjs.org/packageumijs-plugin-vconsole) [![NPM downloads](http://img.shields.io/npm/dmumijs-plugin-vconsole.svg?style=flat)](https://npmjs.org/packageumijs-plugin-vconsole)
-
 ## Install
 
 ```bash

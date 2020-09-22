@@ -61,6 +61,8 @@
   "dependencies": {
     "vconsole": "^3.3.4"
   },
+  "bugs": "https://github.com/luoyelusheng/umijs-plugin-vconsole/issues",
+  "homepage": "https://github.com/luoyelusheng/umijs-plugin-vconsole",
   "peerDependencies": {
     "umi": "3.x"
   },

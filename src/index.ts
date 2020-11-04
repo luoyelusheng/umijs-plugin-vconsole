@@ -20,16 +20,20 @@ export default function(api: IApi) {
     },
   });
 
-  api.addEntryImports(() => {
-    return [
-      {
-        source: 'vconsole',
-        specifier: 'vconsole',
-      },
-    ];
-  });
+  if (option.hidden) return;
 
-  api.addEntryCodeAhead(() => {
-    return `window.vconsole = new vconsole(${JSON.stringify(option)});`;
-  });
+  if (process.env.NODE_ENV === 'development' || option.debug) {
+    api.addEntryImports(() => {
+      return [
+        {
+          source: 'vconsole',
+          specifier: 'vconsole',
+        },
+      ];
+    });
+
+    api.addEntryCodeAhead(() => {
+      return `window.vconsole = new vconsole(${JSON.stringify(option)});`;
+    });
+  }
 }

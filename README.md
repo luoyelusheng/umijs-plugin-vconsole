@@ -44,7 +44,7 @@ debug 在生产环境下打开调试 vconsole，默认只在开发环境显示 v
 
 ## LICENSE
 
-MIT © [luoyelusheng]()
+MIT
 
 [npm-image]: https://badge.fury.io/js/umijs-plugin-vconsole.svg
 [npm-url]: https://npmjs.org/package/umijs-plugin-vconsole

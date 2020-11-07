@@ -1,4 +1,4 @@
-# umijs-plugin-vconsole [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# umijs-plugin-vconsole [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![david-dm][david-image]][david-url]
 
 ## Install
 
@@ -52,3 +52,5 @@ MIT
 [travis-url]: https://travis-ci.com/luoyelusheng/umijs-plugin-vconsole
 [coveralls-image]: https://coveralls.io/repos/github/luoyelusheng/umijs-plugin-vconsole/badge.svg
 [coveralls-url]: https://coveralls.io/github/luoyelusheng/umijs-plugin-vconsole
+[david-image]: https://david-dm.org/luoyelusheng/umijs-plugin-vconsole.svg
+[david-url]: https://david-dm.org/luoyelusheng/umijs-plugin-vconsole

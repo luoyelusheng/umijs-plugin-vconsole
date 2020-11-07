@@ -16,6 +16,9 @@ jobs:
       script:
         - npm install
         - npm run test
-        - npm run coveralls
+
   allow_failures:
     - node_js: v13
+
+after_success:
+  - npm run test:coverage

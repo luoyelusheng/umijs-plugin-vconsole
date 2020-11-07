@@ -1,7 +1,7 @@
 {
   "name": "umijs-plugin-vconsole",
   "main": "lib/index.js",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "authors": {
     "name": "luoyelusheng",
@@ -13,9 +13,8 @@
     "build": "father-build",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage",
     "test:update": "umi-test --updateSnapshot",
-    "coveralls": "umi-test --coverage && coveralls < coverage/lcov.info"
+    "coveralls": "umi-test --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "lint-staged": {
     "*.ts?(x)": [
@@ -26,6 +25,9 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "jest":{
+    "coverageReporters": ["json", "lcov", "text", "clover"]
   },
   "devDependencies": {
     "@testing-library/react": "^9.4.0",
